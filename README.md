@@ -1,11 +1,17 @@
-# little colors
+## A package for ANSI color formatting
 
+![GitHub tag (latest SemVer pre-release)](https://img.shields.io/github/v/tag/gofor-little/colors?include_prereleases)
+![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/gofor-little/colors)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://raw.githubusercontent.com/gofor-little/colors/main/LICENSE)
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/gofor-little/colors/Go)
 [![Go Report Card](https://goreportcard.com/badge/github.com/gofor-little/colors)](https://goreportcard.com/report/github.com/gofor-little/colors)
-[![go.dev reference](https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white)](https://pkg.go.dev/github.com/gofor-little/colors)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![GitHub release](https://img.shields.io/github/v/release/gofor-little/colors?include_prereleases)](https://github.com/gofor-little/colors/releases )
+[![PkgGoDev](https://pkg.go.dev/badge/github.com/gofor-little/colors)](https://pkg.go.dev/github.com/gofor-little/colors)
 
-## Example
+### Introduction
+* ANSI color formatting for consoles
+* No dependencies outside the standard library
+
+### Example
 ```go
 package main
 
@@ -34,7 +40,8 @@ func main() {
 	fmt.Println(colors.WhiteBright("WhiteBright"))
 }
 ```
+![](https://github.com/gofor-little/colors/blob/main/example-dark.png)
+![](https://github.com/gofor-little/colors/blob/main/example-light.png)
 
-## Output
-![](https://github.com/gofor-little/colors/blob/master/example-dark.png)
-![](https://github.com/gofor-little/colors/blob/master/example-light.png)
+### Testing
+Run ```go test ./...``` in the root directory.
